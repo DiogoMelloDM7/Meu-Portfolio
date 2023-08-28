@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+*{
+    margin:0; padding:0; font-family: Palatino, URW Palladio L, serif;scroll-behavior: smooth;
+}
+
+body{
+    
+    background-image: linear-gradient(to left, rgb(15, 23, 42), rgb(25, 33, 52)  ); color:white;
+    
+    
+    
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.imagem{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+}
+
+.sobre-mim{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-left:10%;
+}
+
+.sobre-mim > .topo-sobre-mim > p{
+    font-size: 1.5rem;
+    font-family: Consolas;
+}
+.sobre-mim > .topo-sobre-mim > h1{
+    font-size: 3rem;
+    font-family: Consolas;
+}
+.sobre-mim >.topo-sobre-mim > h2{
+    font-size: 2rem;
+}
+
+.topo-sobre-mim{
+    flex: 35vh;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+
+.meio-sobre-mim {
+    flex: 35vh; 
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+
+.meio-sobre-mim > a{
+    color:rgba(255, 255, 255, 0.445);
+    text-decoration: none;
+    cursor: pointer;
+    padding:10px;
+    
+}
+.meio-sobre-mim > a > p{
+    border-bottom: 2px solid white; width: 40px; transform: translate(-70px , 12px);
+}
+
+.meio-sobre-mim > a:hover > p{
+    border-bottom: 2px solid white; width: 60px; transform: translate(-70px , 12px); 
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+  
+.rodape-sobre-mim {
+    padding-top: 200px;
+    padding-left: 100px;
+    flex: 30vh; 
+
+}
+
+.rodape-sobre-mim > a > img:hover{
+    background-color: rgb(15, 23, 42);
+    transform: scale(1.2)rotate(1deg);
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+    transition: transform .3s;
+}
+
+.sobre-mim-dois{
+    width: 60%;
+    padding: 20px 10px;
+    overflow-y: auto;
+}
+
+.apresentacao{
+    font-size: 1.2rem;  padding: px; margin-right: 30%; margin-top: 100px; margin-left: 15%;
+}
+
+.projetos{
+    color: white; text-decoration: none;
+}
+
+.projetos > div > p{
+    color: rgba(255, 255, 255, 0.603); padding-top: 20px;
+}
+
+.projeto-imagem-titulo > img{
+    border: 2px solid rgba(255, 253, 253, 0.295);
+    width: 125px; height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projeto-descricao{
+    padding-left: 15px;
+}
+
+.tecnologias{
+    margin: 10px;
+}
+
+.tecnologias-usadas{
+    border-radius: 50px; background-color: rgb(0, 59, 59); color:rgb(154, 248, 248); padding: 7px; margin:2px;
+}
+
+.projeto-descricao > p{
+    color: rgba(255, 255, 255, 0.63); font-size: 1rem; line-height: 25px; margin-top: 10px;
+}
+
+.apresentacao-projetos{
+    font-size: 1.2rem;  padding: px; margin-right: 30%; margin-top: 100px; margin-left: 15%;
+}
+
+.apresentacao-projetos:hover {
+    background-color:rgba(255, 255, 255, 0.075); border-radius: 7px; padding: 20px;
+}
+
+.projeto-descricao:hover > h1{
+    color:rgb(201, 231, 250);
+}
+
+.imagem-habilidade > img{
+    background-color: white; margin: 15px; padding: 15px; border-radius: 10px;
+}
+
+.imagem-habilidade > img:hover{
+    cursor: pointer;
+}
+
+.descricao-habilidade{
+    padding: 5px; margin: 5px;
+}
