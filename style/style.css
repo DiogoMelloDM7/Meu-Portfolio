@@ -76,13 +76,10 @@ body{
     color: white;
 }
 
-
-  
 .rodape-sobre-mim {
     padding-top: 200px;
     padding-left: 100px;
     flex: 30vh; 
-
 }
 
 .rodape-sobre-mim > a > img:hover{
