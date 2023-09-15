@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-    margin:0; padding:0; font-family: Palatino, URW Palladio L, serif;scroll-behavior: smooth;
+    margin:0; padding:0; font-family: Arial, Helvetica, sans-serif, serif;scroll-behavior: smooth;
 }
 
 body{
