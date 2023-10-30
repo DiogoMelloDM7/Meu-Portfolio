@@ -28,3 +28,35 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+function mostrarGitDeployMercaLife(){
+    let div = document.getElementById("git-deploy-mercalife");
+    div.style.display="flex";
+    setTimeout(function(){
+        div.style.display="none";
+    }, 5000);
+}
+
+function mostrarGitDeploySempreSeguro(){
+    let div = document.getElementById("git-deploy-sempreseguro");
+    div.style.display="flex";
+    setTimeout(function(){
+        div.style.display="none";
+    }, 5000);
+}
+function mostrarGitDeployTodoListJS(){
+    let div = document.getElementById("git-deploy-todolistjs");
+    div.style.display="flex";
+    setTimeout(function(){
+        div.style.display="none";
+    }, 5000);
+}
+
+function voltar(){
+    let div = document.getElementById("git-deploy-mercalife");
+    let div2 = document.getElementById("git-deploy-sempreseguro");
+    let div3 = document.getElementById("git-deploy-todolistjs");
+    div.style.display="none";
+    div2.style.display="none";
+    div3.style.display="none";
+}

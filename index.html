@@ -10,6 +10,23 @@
 </head>
 <body>
     <main>
+        <article>
+            <div class="git-deploy" id="git-deploy-mercalife">
+                <button class="btn-deploy"><a href="https://sistema-mercearia-production.up.railway.app/"  target="_blank">Deploy</a></button>
+                <button class="btn-github"><a href="https://github.com/DiogoMelloDM7/Sistema-Mercearia"  target="_blank">GitHub</a></button>
+                <button class="btn-voltar"><a href="#" onclick="voltar()">Voltar</a></button>
+            </div>
+            <div class="git-deploy" id="git-deploy-sempreseguro">
+                <button class="btn-deploy"><a href="https://sempreseguro-production.up.railway.app/"  target="_blank">Deploy</a></button>
+                <button class="btn-github"><a href="https://github.com/DiogoMelloDM7/Sempre_Seguro"  target="_blank">GitHub</a></button>
+                <button class="btn-voltar"><a href="#" onclick="voltar()">Voltar</a></button>
+            </div>
+            <div class="git-deploy" id="git-deploy-todolistjs">
+                <button class="btn-deploy"><a href="https://diogomellodm7.github.io/Todo-List-JS/"  target="_blank">Deploy</a></button>
+                <button class="btn-github"><a href="https://github.com/DiogoMelloDM7/Todo-List-JS"  target="_blank">GitHub</a></button>
+                <button class="btn-voltar"><a href="#" onclick="voltar()">Voltar</a></button>
+            </div>
+        </article>
         <article class="container">
             <section class="sobre-mim">
                 <div class="topo-sobre-mim">
@@ -53,8 +70,8 @@
                         <h1>PROJETOS</h1>
                     </div>
                     
-                    <div class="apresentacao-projetos">
-                        <a href="https://sistema-mercearia-production.up.railway.app/" class="projetos display-flex" target="_blank">
+                    <div class="apresentacao-projetos" id="apresentacao-projetos-mercalife">
+                        <a href="#" class="projetos display-flex" onclick="mostrarGitDeployMercaLife()">
                         <div class="projeto-imagem-titulo">
                             <img src="images/Sistema-Mercearia-sm.png">
                         </div>
@@ -77,8 +94,8 @@
                     </div>
 
 
-                        <div class="apresentacao-projetos">
-                            <a href="https://sempreseguro-production.up.railway.app/" class="projetos display-flex" target="_blank">
+                        <div class="apresentacao-projetos" id="apresentacao-projetos-sempreseguro">
+                            <a href="#" class="projetos display-flex" onclick="mostrarGitDeploySempreSeguro()">
                             <div class="projeto-imagem-titulo">
                                 <img src="images/SempreSeguro-sm.png">
                             </div>
@@ -102,8 +119,8 @@
                         </a>
                         </div>
 
-                        <div class="apresentacao-projetos">
-                            <a href="https://diogomellodm7.github.io/Todo-List-JS/" class="projetos display-flex" target="_blank">
+                        <div class="apresentacao-projetos" id="apresentacao-projetos-todolistjs">
+                            <a href="#" class="projetos display-flex"  onclick="mostrarGitDeployTodoListJS()">
                             <div class="projeto-imagem-titulo">
                                 <img src="images/TodoList.png">
                             </div>

@@ -34,6 +34,52 @@ body{
     
 }
 
+.git-deploy{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 250px;
+    background-image: linear-gradient(to left, rgb(20, 30, 54), rgb(37, 49, 77));
+    justify-content: space-evenly; display: flex; align-items: center;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.git-deploy > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.btn-deploy{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(9, 5, 68);
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-github{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(9, 5, 68);
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-voltar{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(211, 209, 240);
+    border: none;
+    border-radius: 10px;
+}
+
+
 .container{
     display: flex;
     height: 100vh;
@@ -423,5 +469,39 @@ body{
         background-size: cover;
         margin-left: 5%; margin-top: 10px;
         display: block;
+    }
+
+    .git-deploy{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 250px;
+        background-image: linear-gradient(to left, rgb(20, 30, 54), rgb(37, 49, 77));
+        justify-content: center; display: flex; align-items: center;
+        border-radius: 10px;
+        display: none;
+        z-index: 1;
+    }
+
+    .git-deploy > button{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .git-deploy{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 250px;
+        background-image: linear-gradient(to left, rgb(20, 30, 54), rgb(37, 49, 77));
+        justify-content: center; display: flex; align-items: center; flex-direction: column;
+        border-radius: 10px;
+        display: none;
+        z-index: 1;
     }
 }
