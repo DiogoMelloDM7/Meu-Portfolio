@@ -29,6 +29,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+function mostrarGitDeployAnimesBrainBuster(){
+    let div = document.getElementById("git-deploy-animesbrainbuster");
+    div.style.display="flex";
+    setTimeout(function(){
+        div.style.display="none";
+    }, 5000);
+}
+
 function mostrarGitDeployMercaLife(){
     let div = document.getElementById("git-deploy-mercalife");
     div.style.display="flex";
