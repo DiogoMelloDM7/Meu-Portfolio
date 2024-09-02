@@ -64,7 +64,9 @@ function voltar(){
     let div = document.getElementById("git-deploy-mercalife");
     let div2 = document.getElementById("git-deploy-sempreseguro");
     let div3 = document.getElementById("git-deploy-todolistjs");
+    let div4 = document.getElementById("git-deploy-animesbrainbuster")
     div.style.display="none";
     div2.style.display="none";
     div3.style.display="none";
+    div4.style.display="none";
 }
